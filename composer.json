@@ -1,0 +1,31 @@
+{
+    "name": "iamdevroyal/nativephp-push",
+    "description": "Free FCM/APNs push notifications for NativePHP Mobile — fail-closed event allow-list by default, native-side FQCN validation, defense-in-depth security model, and a fluent server-side FCM v1 sender. Requires nativephp/mobile ^3.2.",
+    "type": "nativephp-plugin",
+    "keywords": ["nativephp", "push", "fcm", "apns", "firebase", "notifications"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "nativephp/mobile": "^3.2"
+    },
+    "suggest": {
+        "google/auth": "Server-side only: required by Iamdevroyal\\NativePush\\Server\\FcmSender to mint FCM v1 tokens. Run `composer require google/auth` on the machine that SENDS pushes."
+    },
+    "autoload": {
+        "psr-4": {
+            "Iamdevroyal\\NativePush\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iamdevroyal\\NativePush\\PushServiceProvider"
+            ]
+        },
+        "nativephp": {
+            "manifest": "nativephp.json"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

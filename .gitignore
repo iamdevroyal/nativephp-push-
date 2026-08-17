@@ -1,0 +1,15 @@
+﻿# Firebase credentials / Google service files — never commit these
+resources/google-services.json
+resources/GoogleService-Info.plist
+*.json.key
+service-account*.json
+
+# Composer vendor directory
+/vendor/
+composer.lock
+
+# IDE / OS
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
