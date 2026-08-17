@@ -1,4 +1,4 @@
-﻿# iamdevroyal/nativephp-push
+# iamdevroyal/nativephp-push
 
 **Free, MIT-licensed** FCM/APNs push notifications for [NativePHP Mobile](https://nativephp.com/docs/mobile).  
 Implements the Swift/Kotlin native layer that NativePHP's open-source core already expects, adds a fluent server-side FCM v1 sender, and ships with **security-first defaults** — fail-closed event allow-list, native-side FQCN validation, and belt-and-suspenders defense in depth across every layer. Firebase Cloud Messaging and APNs are free; this is the glue.

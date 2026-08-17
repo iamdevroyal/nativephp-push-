@@ -1,4 +1,4 @@
-﻿# Security audit & hardening changes
+# Security audit & hardening changes
 
 This document records every change made during the security review of this package.
 It is provided as a transparency log for maintainers and consumers.

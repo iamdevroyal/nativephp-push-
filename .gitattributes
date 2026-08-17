@@ -1,4 +1,4 @@
-﻿# Normalise line endings to LF in the repository
+# Normalise line endings to LF in the repository
 * text=auto eol=lf
 
 # Force binary treatment for compiled / binary files
